@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppBar</string>
+    <string name="settingsItem">Settings</string>
+    <string name="openNotesItem">Записная книжка</string>
+    <string name="input_note">Напишите заметку</string>
+    <string name="save_note">Сохранить</string>
+
+</resources>
