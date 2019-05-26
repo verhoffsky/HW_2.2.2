@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/infoInputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/info_inputText"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/moneyInputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/money_inputText"
+        android:inputType="number"
+        tools:ignore="Autofill" />
+
+    <CheckBox
+        android:id="@+id/bankCardCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bankCardCheckBox"/>
+
+    <CheckBox
+        android:id="@+id/mobilePhoneCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mobilePhoneCheckBox"/>
+
+    <CheckBox
+        android:id="@+id/cashAddressCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cashAddressCheckBox"/>
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/okButton" />
+
+</LinearLayout>

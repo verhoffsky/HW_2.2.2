@@ -5,4 +5,54 @@
     <string name="input_note">Напишите заметку</string>
     <string name="save_note">Сохранить</string>
 
+    <string name="action_checkbox">Взаимоисключающие CheckBox</string>
+
+    <string name="info_inputText">Информация об оплате</string>
+    <string name="money_inputText">Введите сумму</string>
+    <string name="okButton">OK</string>
+    <string name="bankCardCheckBox">С банковской карты</string>
+    <string name="mobilePhoneCheckBox">С мобильного телефона</string>
+    <string name="cashAddressCheckBox">Наличными по адресу</string>
+
+    <string name="action_spinner">Выпадающий список</string>
+
+    <string name="showAddressButton">Показать адрес</string>
+    <string name="action_calendarView">Сроки задачи</string>
+    <string-array name="countries">
+        <item>Россия</item>
+        <item>Белоруссия</item>
+        <item>Украина</item>
+    </string-array>
+    <string-array name="r_cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Казань</item>
+    </string-array>
+    <string-array name="b_cities">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Торжок</item>
+    </string-array>
+    <string-array name="u_cities">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+
+    <string name="chooseStartDate">Дата-время старта задачи:</string>
+    <string name="chooseEndDate">Дата-время окончания задачи:</string>
+    <string name="btn_ok">OK</string>
+
+    <string name="back">BACK</string>
+    <string name="forward">FORWARD</string>
+    <string name="todo">TODO</string>
+    <string name="action_endless_transition">Просмотр фото</string>
+
+    <string name="message_template">Подписка на рассылку успешно оформлена для пользователя %1$s на электронный адрес %2$s</string>
+    <string name="text_name">Имя пользователя</string>
+    <string name="ok_button">ОK</string>
+    <string name="delete_button">Очистить</string>
+    <string name="text_mail">Электронная почта</string>
+    <string name="action_uniform">Подписка на рассылку</string>
+
 </resources>

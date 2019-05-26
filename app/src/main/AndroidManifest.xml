@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -20,8 +20,28 @@
         </activity>
 
         <activity
+            android:name=".CheckBoxActivity"
+            android:label="Взаимоисключающие CheckBox"/>
+
+        <activity
             android:name=".NotesActivity"
             android:label="Записная книжка" />
+
+        <activity
+            android:name=".SpinnerActivity"
+            android:label="Выпадающий список"/>
+
+        <activity
+            android:name=".CalendarViewActivity"
+            android:label="Сроки задачи"/>
+
+        <activity
+            android:name=".EndlessTransitionActivity"
+            android:label="Просмотр фото"/>
+
+        <activity
+            android:name=".UniversalFormActivity"
+            android:label="Подписка на рассылку"/>
 
     </application>
 
